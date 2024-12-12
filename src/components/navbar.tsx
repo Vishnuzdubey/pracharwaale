@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Sparkles } from 'lucide-react';
-import image from '@/assets/image.png';
 
 export function Navbar() {
   return (
