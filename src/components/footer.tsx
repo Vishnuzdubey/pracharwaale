@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Sparkles, Instagram, Twitter, LinkedIn, Facebook } from 'lucide-react';
+import { Sparkles, Instagram, Twitter, Linkedin, Facebook } from 'lucide-react';
 
 export function Footer() {
   return (
-    <footer className="border-t bg-background">
+    <footer className="border-t bg-background  flex justify-center align-center">
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
@@ -36,7 +36,7 @@ export function Footer() {
                 <Twitter className="h-5 w-5" />
               </a>
               <a href="#" className="text-muted-foreground hover:text-foreground">
-                <LinkedIn className="h-5 w-5" />
+                <Linkedin className="h-5 w-5" />
               </a>
               <a href="#" className="text-muted-foreground hover:text-foreground">
                 <Facebook className="h-5 w-5" />

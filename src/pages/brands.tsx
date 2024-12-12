@@ -44,7 +44,7 @@ export function BrandsPage() {
         <Button size="lg" className="mt-6">Schedule a Consultation</Button>
       </HeroSection>
 
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container">
           <SectionHeader
             title="Why Work With Us"
@@ -67,7 +67,7 @@ export function BrandsPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-muted">
+      <section className="py-20 flex justify-center align-center bg-muted">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -97,7 +97,7 @@ export function BrandsPage() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container max-w-4xl">
           <SectionHeader
             title="Our Process"
@@ -154,7 +154,7 @@ export function BrandsPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-muted">
+      <section className="py-20  flex justify-center align-center bg-muted">
         <div className="container text-center">
           <SectionHeader
             title="Ready to Get Started?"

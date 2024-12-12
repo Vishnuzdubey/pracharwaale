@@ -40,7 +40,7 @@ export function HomePage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-muted">
+      <section className="py-20  flex justify-center align-center bg-muted">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
@@ -64,7 +64,7 @@ export function HomePage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Our Services</h2>
@@ -109,7 +109,7 @@ export function HomePage() {
       </section>
 
       {/* Featured Case Study */}
-      <section className="py-20 bg-muted">
+      <section className="py-20  flex justify-center align-center bg-muted">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -162,7 +162,7 @@ export function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container text-center">
           <h2 className="text-3xl font-bold mb-4">
             Ready to Amplify Your Brand?

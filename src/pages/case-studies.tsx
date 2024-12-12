@@ -46,7 +46,7 @@ export function CaseStudiesPage() {
         image="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
       />
 
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container">
           <SectionHeader
             title="Featured Case Studies"
@@ -87,7 +87,7 @@ export function CaseStudiesPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-muted">
+      <section className="py-20  flex justify-center align-center bg-muted">
         <div className="container text-center">
           <SectionHeader
             title="Ready to Be Our Next Success Story?"

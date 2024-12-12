@@ -1,14 +1,15 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Sparkles } from 'lucide-react';
+import image from '@/assets/image.png';
 
 export function Navbar() {
   return (
-    <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 flex items-center justify-center">
       <div className="container flex h-16 items-center">
         <Link to="/" className="flex items-center space-x-2">
           <Sparkles className="h-6 w-6" />
-          <span className="font-bold">Influence Elite</span>
+          <span className="font-bold">Parchar Wale</span>
         </Link>
         <div className="flex-1" />
         <div className="flex items-center space-x-6">

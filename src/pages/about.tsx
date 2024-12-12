@@ -3,12 +3,13 @@ import { HeroSection } from '@/components/ui/hero-section';
 import { SectionHeader } from '@/components/ui/section-header';
 import { TeamCard } from '@/components/team/team-card';
 import { CheckCircle } from 'lucide-react';
+import image from '@/components/assets/image.png';
 
 const teamMembers = [
   {
     name: 'Utkarsh Mishra',
     role: 'CEO & Founder',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+    image: image,
     bio: 'With over 2 years in digital marketing, Utkarsh leads our vision for authentic influencer partnerships.',
   },
   {
@@ -53,7 +54,7 @@ export function AboutPage() {
         image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
       />
 
-      <section className="py-20">
+      <section className="py-20 flex justify-center align-center">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -84,7 +85,7 @@ export function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-muted">
+      <section className="py-20 bg-muted  flex justify-center align-center">
         <div className="container">
           <SectionHeader
             title="Meet Our Team"
@@ -100,7 +101,7 @@ export function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container text-center">
           <SectionHeader
             title="Join Our Team"

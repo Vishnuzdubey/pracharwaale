@@ -54,7 +54,7 @@ export function ServicesPage() {
         image="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
       />
 
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container">
           <SectionHeader
             title="What We Offer"
@@ -77,7 +77,7 @@ export function ServicesPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-muted">
+      <section className="py-20  flex justify-center align-center bg-muted">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px]">
@@ -143,7 +143,7 @@ export function ServicesPage() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container text-center">
           <SectionHeader
             title="Ready to Get Started?"

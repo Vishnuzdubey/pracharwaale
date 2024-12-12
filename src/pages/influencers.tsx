@@ -2,15 +2,16 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { HeroSection } from '@/components/ui/hero-section';
 import { SectionHeader } from '@/components/ui/section-header';
-import { Instagram, TikTok, Youtube } from 'lucide-react';
+import { Instagram, Youtube } from 'lucide-react';
+import image from '@/components/assets/ant.png';
 
 const influencers = [
   {
-    name: 'Alex Rivera',
+    name: 'Antara Pandey',
     category: 'Lifestyle & Fashion',
-    followers: '500K+',
-    image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-    platforms: ['Instagram', 'TikTok'],
+    followers: '32K+',
+    image: image,
+    platforms: ['Instagram'],
   },
   {
     name: 'Sarah Chen',
@@ -24,7 +25,7 @@ const influencers = [
     category: 'Tech & Gaming',
     followers: '1M+',
     image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-    platforms: ['Youtube', 'TikTok'],
+    platforms: ['Youtube'],
   },
 ];
 
@@ -58,7 +59,7 @@ export function InfluencersPage() {
         <Button size="lg" className="mt-6">Apply Now</Button>
       </HeroSection>
 
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container">
           <SectionHeader
             title="Why Join Us?"
@@ -77,7 +78,7 @@ export function InfluencersPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-muted">
+      <section className="py-20  flex justify-center align-center bg-muted">
         <div className="container">
           <SectionHeader
             title="Featured Influencers"
@@ -103,9 +104,9 @@ export function InfluencersPage() {
                     {influencer.platforms.includes('Instagram') && (
                       <Instagram className="h-5 w-5" />
                     )}
-                    {influencer.platforms.includes('TikTok') && (
-                      <TikTok className="h-5 w-5" />
-                    )}
+                    {/* {influencer.platforms.includes('TikTok') && (
+                      // <TikTok className="h-5 w-5" />
+                    )} */}
                     {influencer.platforms.includes('Youtube') && (
                       <Youtube className="h-5 w-5" />
                     )}
@@ -117,7 +118,7 @@ export function InfluencersPage() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container max-w-2xl text-center">
           <SectionHeader
             title="Ready to Grow Your Influence?"

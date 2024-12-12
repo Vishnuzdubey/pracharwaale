@@ -46,7 +46,7 @@ export function BlogPage() {
         image="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
       />
 
-      <section className="py-20">
+      <section className="py-20  flex justify-center align-center">
         <div className="container">
           <div className="flex flex-wrap gap-4 mb-12 justify-center">
             {categories.map((category) => (
@@ -87,7 +87,7 @@ export function BlogPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-muted">
+      <section className="py-20  flex justify-center align-center bg-muted">
         <div className="container text-center">
           <SectionHeader
             title="Subscribe to Our Newsletter"
