@@ -4,7 +4,6 @@ import {
   BarChart3,
   Users,
   Target,
-  TrendingUp,
   CheckCircle,
   ArrowRight,
 } from 'lucide-react';
